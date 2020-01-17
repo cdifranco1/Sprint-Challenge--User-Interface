@@ -261,3 +261,44 @@ header {
 .pages-bottom-section {
     margin-bottom: 5%;
 }
+
+
+/* Contact Page  */
+
+/* .form-section{
+    display: flex;
+    flex-wrap: wrap;
+
+} */
+
+.flex-container {
+    display: flex;
+}
+
+.form-container {
+    margin-top: 2%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+form {
+    height: 30vh;
+}
+
+label {
+    width: 20%;
+}
+
+input, textarea {
+    width: 70%;
+}
+
+.contact-us {
+    font-size: 2rem;
+    padding: 2% 0;
+    border-bottom: 1px dashed black;
+}
